@@ -7,14 +7,14 @@
       .hibás {color:red; font-size: 4vw;}
 	  #anshun{
   margin: 0;
-  width:95%;
+  width:100%;
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box; 
           box-sizing: content-box;
 }
 button, input, select, textarea {
   font-family : "Arial";
-  font-size   : 4vw;
+  font-size   : 5vw;
 }
 img{position:absolute;
     left: 50%; top:50%;
@@ -206,14 +206,14 @@ document.onkeypress = function keypressed(){
   <tr><td align="right" style="color:red; font-size:4vw"><b>Rossz válaszok: </b></td><td><input type="text", size="1", id="res2" value="0" readonly></td></tr>
   <tr><td align="right" style="font-size:4vw">Kérdések: </td><td><input type="text", size="1", id="gam" value="1" readonly></td><td><p style="font-size:4vw">/ 90</p></td></tr>
 </table>
-<table style="position: absolute; margin-top: 82%; left:0%; margin-left:20%; z-index:1">
+<table style="position: absolute; top: 82%; left:0%; margin-left:10%; z-index:1">
   <tr><td align="right" style="font-size:4vw">Magyar név: </td><td><input type="text", id="anshun"></td></tr>
 </table>
-<table style="position: absolute; margin-top: 87%; left:0%; margin-left:20%; z-index:1">
+<table style="position: absolute; top: 90%; left:0%; z-index:1">
   <tr align="center"><td><p id="lab1" style="visibility:visible"></p></td></tr>
 </table>
-<input type="button" id="verif" value="Kész!" onclick="correct()" style="position: absolute; left: 42%; top: 90%; z-index:1">
-<input type="button" id="tov" value="Következő" onclick="change()" style="position: absolute; left: 52%; top: 90%; z-index:1">
+<input type="button" id="verif" value="Kész!" onclick="correct()" style="position: absolute; left: 35%; top: 90%; z-index:1">
+<input type="button" id="tov" value="Következő" onclick="change()" style="position: absolute; left: 55%; top: 90%; z-index:1">
 <input type="button" value="Új kvíz" onClick="window.location.reload()" style="position: absolute; left: 67%; top: 10%; z-index:1">
 </body>
 </html>
